@@ -1,0 +1,9 @@
+.footer {
+  align-items: center;
+}
+.footer__copyright {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
