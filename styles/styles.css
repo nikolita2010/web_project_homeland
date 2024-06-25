@@ -19,24 +19,26 @@
   font-display: swap;
   src: url("Inter-Thin.woff2") format("woff2");
 }
-
-.page {
-  min-width: 1110px;
-  max-width: 1280px;
-  background-color: #2a2c2f;
-  color: #fff;
-  margin: auto;
+@media screen and (max-width: 1280px) {
+  .page {
+    min-width: 100vw;
+    max-width: 100vw;
+    background-color: #2a2c2f;
+    color: #fff;
+    margin: auto;
+  }
 }
-.header {
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  box-sizing: border-box;
-  max-width: 984px;
-  height: 983px;
-  top: 194px;
-  left: 148px;
-  gap: 0px;
+@media screen and (max-width: 984px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    box-sizing: border-box;
+    max-width: 100%;
+    top: 194px;
+    left: 148px;
+    gap: 0px;
+  }
 }
 .header__logo {
   width: 254.84px;
