@@ -1,46 +1,43 @@
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
   .content {
-    width: 100vw;
-    height: 100vw;
-    margin-top: 485px;
-    left: 148px;
-    gap: 0px;
-    opacity: 0px;
-    display: flex;
-    flex-direction: column;
-    position: relative;
+    background-color: red;
+    margin-left: 0;
   }
-
-  .content__card {
-    display: flex;
-    flex-direction: column;
-  }
-  .content__title {
-    font-family: "Inter", Arial, Helvetica, sans-serif;
-    font-size: 54px;
-    font-weight: 900;
-    line-height: 58px;
-    text-align: left;
-  }
-  .content__text {
-    font-family: "Inter", Arial, Helvetica, sans-serif;
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 34px;
-    text-align: left;
-  }
-  .content__footer {
-    font-family: "Inter", Arial, Helvetica, sans-serif;
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 34px;
-    text-align: right;
-  }
-  .content__subtext {
-    font-family: "Inter", Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 26.08px;
-    text-align: left;
-  }
+}
+.content {
+  display: flex;
+  max-width: 830px;
+  margin-left: 8%;
+}
+.content__card {
+  display: flex;
+  flex-direction: column;
+}
+.content__title {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-size: 3.4em;
+  font-weight: 900;
+  line-height: 58px;
+  text-align: justify;
+}
+.content__text {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px;
+  text-align: left;
+}
+.content__footer {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px;
+  text-align: right;
+}
+.content__subtext {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26.08px;
+  text-align: left;
 }
