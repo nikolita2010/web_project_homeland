@@ -1,43 +1,35 @@
-@media screen and (max-width: 768px) {
-  .content {
-    background-color: red;
-    margin-left: 0;
-  }
-}
 .content {
   display: flex;
   max-width: 830px;
   margin-left: 8%;
 }
 .content__card {
-  display: flex;
-  flex-direction: column;
-}
-.content__title {
-  font-family: "Inter", Arial, Helvetica, sans-serif;
-  font-size: 3.4em;
-  font-weight: 900;
-  line-height: 58px;
+  padding-left: 2%;
   text-align: justify;
 }
-.content__text {
+.content__card-title {
   font-family: "Inter", Arial, Helvetica, sans-serif;
-  font-size: 24px;
-  font-weight: 400;
-  line-height: 34px;
-  text-align: left;
+  font-size: 3.4em;
+  text-align: justify;
 }
-.content__footer {
-  font-family: "Inter", Arial, Helvetica, sans-serif;
-  font-size: 24px;
-  font-weight: 400;
-  line-height: 34px;
-  text-align: right;
+.content__card-text {
+  max-width: 738px;
+  min-width: 350px;
 }
-.content__subtext {
+.content__card-footer {
   font-family: "Inter", Arial, Helvetica, sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 26.08px;
-  text-align: left;
+  display: flex;
+  justify-content: end;
+}
+.content__card-subtext {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-size: calc(1.2 + 1em);
+  max-width: 722px;
+  text-align: justify;
+}
+@media screen and (max-width: 768px) {
+  .content {
+    background-color: red;
+    margin-left: 0;
+  }
 }
