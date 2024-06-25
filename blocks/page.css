@@ -1,9 +1,6 @@
 .page {
-  max-width: 1280vh;
   background-color: #2a2c2f;
   color: #fff;
-  margin-left: auto;
-  margin-right: auto;
   font-family: "Inter";
 }
 body {

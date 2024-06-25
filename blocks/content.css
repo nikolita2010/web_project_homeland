@@ -29,7 +29,17 @@
 }
 @media screen and (max-width: 768px) {
   .content {
-    background-color: red;
+    background-color: #2a2c2f;
+    margin-left: 0;
+  }
+  .content__card {
+    padding-left: 2%;
+    text-align: justify;
+  }
+}
+@media screen and (max-width: 320px) {
+  .content {
+    background-color: #2a2c2f;
     margin-left: 0;
   }
 }
