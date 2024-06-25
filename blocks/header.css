@@ -1,7 +1,6 @@
 .header {
   display: flex;
   justify-content: center;
-  color: #fff;
 }
 
 .header__logo {
