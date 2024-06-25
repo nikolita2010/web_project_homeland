@@ -82,16 +82,18 @@
   gap: 0px;
   opacity: 0px;
 }
-.content {
-  width: 830px;
-  height: 607px;
-  margin-top: 485px;
-  left: 148px;
-  gap: 0px;
-  opacity: 0px;
-  display: flex;
-  flex-direction: column;
-  position: relative;
+@media screen and (max-width: 320px) {
+  .content {
+    width: 100vw;
+    height: 100vw;
+    margin-top: 485px;
+    left: 148px;
+    gap: 0px;
+    opacity: 0px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
 }
 .content__card {
   display: flex;
