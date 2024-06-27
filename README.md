@@ -1,3 +1,3 @@
 # Tripleten web_project_homeland
 
-https://github.com/nikolita2010/web_project_homeland/tree/main/pages
+https://nikolita2010.github.io/web_project_homeland/
