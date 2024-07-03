@@ -24,6 +24,7 @@
   margin-bottom: 92px;
   width: 100%;
   height: 615px;
+  box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5);
 }
 @media screen and (max-width: 768px) {
   .lead__title {
